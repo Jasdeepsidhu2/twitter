@@ -1,0 +1,150 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// $bgColor:#e
+
+
+
+.bg-0{
+  background-color: #eee;
+
+}
+.bg-1{
+  background-color: #cdcfdc;
+  
+}
+.bg-2{
+  background-color: #eee;
+  
+}
+.bg-3{
+  background-color: #eee;
+  
+}
+.bg-w{
+  background-color: #eee;
+  
+}
+.flex{
+  display: flex;
+
+}
+.flex-v{
+  flex-direction: column;
+}
+.flex-h{
+  flex-direction: row;
+}
+.full-page{
+  height: 100vh;
+
+}
+.flex-1{
+  flex: 1;
+}
+
+header{
+        .top-top{
+          height: 70px;
+        }
+
+      .hero{
+        height: 400px;
+        background: url("./../views/images/hero.jpg") ;
+        background-size: contain;
+        background-position: center;
+      }
+.stats{
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+        .profile-pic{
+          height: 200px;
+          width: 200px;
+          background: teal;
+          border-radius: 50%;
+          border: 4px solid wheat;
+          position: absolute;
+          left: 10px;
+          bottom: -22%;
+
+          
+        }
+          .stats-links{
+            list-style: none;
+            // background: red;
+            width: 40%;
+            align-items: center;
+            justify-content: space-around;
+          }
+          a{
+            text-decoration: none;
+            text-align: center;
+          }
+          
+      }
+}
+.main{
+  justify-content: space-around;
+      .user-details{
+        width: 20%;
+        padding: 1%;
+      }
+      .tweets{
+        width: 50%;
+        .tweetCard{
+          // width: 80%;
+          border-radius: 50%;
+          margin: 10px;
+
+        }
+        .tweetDescription{
+          padding: 10px;
+        }
+      }
+      .suggestions{
+        width: 25%;
+
+        
+        .suggestionCard1{
+          // height: 39%;
+          margin-bottom: 2%;
+          // background: red;
+
+            .people{
+              margin-bottom: 2%;
+              // background: red;
+
+             .image{
+                width: 80%;
+                // height: 120px; 
+                
+                 border-radius: 50%;
+            
+
+              
+              }
+              .peopleDescription{
+                // padding: 20px;
+              }
+
+            }
+        }
+        .suggestionCard2{
+          height: 30%;
+          margin-bottom:  2%;
+        }
+
+
+
+      }
+}
